@@ -1,0 +1,42 @@
+FLO_ideas = {
+	start = {
+		infantry_power = 0.10 # agincourt
+		colonists = 1
+		auto_explore_adjacent_to_colony = yes
+	}
+
+	bonus = {
+		free_leader_pool = 1
+	}
+	
+	trigger = {
+		tag = FLO
+	}
+	free = yes		#will be added at load.
+	
+	
+	big_pop = {
+		global_colonial_growth = 50
+	}
+	swamp_people = {
+		land_attrition = -0.25
+	}
+	flo_oranges = {
+		global_supply_limit_modifier = 0.33
+	}
+	long_coast = {
+		global_trade_power = 0.2
+		naval_forcelimit_modifier = 0.25
+	}
+	flo_auto = {
+		global_autonomy = -0.05
+	}
+	
+	flo_dev = {
+		build_cost = -0.2
+		development_cost = -0.2
+	}
+	everyone_flo = {
+		years_of_nationalism = -10
+	}
+}

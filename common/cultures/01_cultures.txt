@@ -1,0 +1,17 @@
+floridian	= {
+	graphical_culture = westerngfx
+
+	floridian = {
+		primary = FLO
+		dynasty_names = { 
+			DeLeon DeSantis
+		}
+		male_names = {
+			Ponce Ron
+		}
+		female_names = {
+			Isabella
+		}
+	}
+	
+}
